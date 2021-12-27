@@ -1,10 +1,10 @@
 # Game Ping-Pong
 
-from tkinter import *
-import random
-import time
+from tkinter import * #importa o pacote tkinter
+import random #importa o pacote random
+import time #importa o pacote time
 
-level = int(input("Qual nível você gostaria de jogar? 1/2/3/4/5 \n"))
+level = int(input("Qual nível você gostaria de jogar? 1/2/3/4/5 \n")) 
 length = 500/level
 
 
